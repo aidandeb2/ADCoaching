@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | AD Coaching</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <!-- Logo and Blurb -->
+    <div class="logo-container">
+      <img src="logo.png" alt="AD Coaching Logo" class="logo-img">
+      <div class="header-blurb">
+        <h1>Athletic Development Coaching</h1>
+        <p>Personalised sprint coaching designed for athletes at every level.</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="junior.html">Junior Coaching</a></li>
+      <li><a href="senior.html">Senior Coaching</a></li>
+      <li><a href="sport.html">Sport Development</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>If you have any questions, want to learn more about my programs, or are ready to book a coaching session, please don’t hesitate to reach out. I’d love to hear from you!</p>
+
+      <!-- Contact Details -->
+      <ul class="contact-details">
+        <li>Email: <a href="mailto:aidandebernardi@gmail.com">aidandebernardi@gmail.com</a></li>
+        <li>Phone: <a href="tel:+61422887630">0422 887 630</a></li>
+      </ul>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h3>Send Me a Message</h3>
+        <form action="mailto:aidandebernardi@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AD Coaching. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
